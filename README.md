@@ -6,21 +6,21 @@ This project is a complete machine learning pipeline for forecasting U.S. macroe
 
 ## 📦 Project Structure
 ```bash
-├── dags/                        # Airflow DAGs for automation
+├── dags/                       
 │   └── fred_experiment_dag.py
-├── feature_store/              # FRED data ingestion and schema setup
+├── feature_store/             
 │   ├── load_features.py
 │   └── schema.py
-├── ml/                         # Model training and utilities
+├── ml/                        
 │   ├── train.py
 │   ├── feature_engineering.py
 │   └── utils.py
-├── streamlit_app/              # CPI forecast visualization
+├── streamlit_app/             
 │   └── app.py
-├── docker-compose.yaml         # Docker orchestration for Airflow, MLflow, Streamlit
-├── dockerfile                  # Dockerfile for ML services
-├── .env                        # Environment variables (Snowflake, MLflow, FRED API keys)
-└── requirements.txt            # Python dependencies
+├── docker-compose.yaml         
+├── dockerfile                  
+├── .env                        
+└── requirements.txt            
 ```
 
 ## 🚀 Features

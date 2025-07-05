@@ -24,6 +24,7 @@ config/airflow.cfg  # only if generated locally
 # MLflow artifacts
 ml/mlruns/
 mlflow/mlruns/
+ml-tracker/
 
 # Docker
 *.log

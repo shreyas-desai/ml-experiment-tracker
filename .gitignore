@@ -1,0 +1,55 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Airflow directories
+logs/
+dags/__pycache__/
+config/airflow.cfg  # only if generated locally
+*.sqlite
+
+# MLflow artifacts
+ml/mlruns/
+mlflow/mlruns/
+
+# Docker
+*.log
+docker-compose.override.yml
+**/.mypy_cache/
+**/.pytest_cache/
+.dockerignore
+Dockerfile
+
+# VS Code
+.vscode/
+
+# OS & IDE junk
+.DS_Store
+Thumbs.db
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Snowflake & credentials (if used)
+snowflake_*.json
+credentials.json
+
+# Airflow compiled files or temporary DAG files
+airflow-webserver.pid
+
+# Feature store or cache
+feature_store/tmp/

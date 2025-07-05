@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/218063467901489251/2a1e7663f9464c7e8d635b7fd4d03bfb/artifacts
+end_time: 1751732195029
+entry_point_name: ''
+experiment_id: '218063467901489251'
+lifecycle_stage: active
+run_id: 2a1e7663f9464c7e8d635b7fd4d03bfb
+run_name: luxuriant-hound-508
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751732174368
+status: 3
+tags: []
+user_id: airflow

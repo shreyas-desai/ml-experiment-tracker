@@ -1,0 +1,13 @@
+apache-airflow
+snowflake-connector-python
+fredapi
+pandas
+mlflow
+scikit-learn
+prophet
+python-dotenv
+streamlit
+plotly
+pandas
+xgboost
+joblib
